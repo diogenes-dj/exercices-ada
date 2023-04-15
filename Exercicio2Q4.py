@@ -8,17 +8,17 @@ for item in lista_inicial:
 
         if item < 0:
 
-            lista_final.append(A)
+            lista_final.append(-item) #A
     
         else:
 
-            lista_final.append(B)
+            lista_final.append(item) #B
     else:
 
         if item < 0:
             
-            lista_final.append(C)
+            lista_final.append(-2*item) #C
     
         else:
 
-            lista_final.append(D)
+            lista_final.append(2*item) #D
